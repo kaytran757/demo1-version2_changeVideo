@@ -1,8 +1,8 @@
 const REVIEWS = [
   {
-    name: 'Nguyễn Thị Mai',
+    name: 'Tố Nga',
     service: 'Nhuộm & Uốn',
-    text: 'Màu tóc lên chuẩn từng sợi, đội ngũ tư vấn rất nhiệt tình. Không gian salon sang trọng và thoải mái.',
+    text: 'Uốn tóc từ trước tết tới giờ vẫn giữ nếp rất ok, thái độ phục vụ của tiệm cx rất tốt 👍',
   },
   {
     name: 'Trần Thanh Hằng',
