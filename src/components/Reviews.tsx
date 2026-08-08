@@ -25,9 +25,9 @@ const REVIEWS = [
     text: '10đ a làm tóc hoà đồng thân thiện lắm luôn, giá tốt.',
   },
   {
-    name: 'Đặng Thu Hà',
+    name: 'Si Bu',
     service: 'Nhuộm Balayage',
-    text: 'Balayage lên màu mượt mà, chuyển sắc cực kỳ tự nhiên. Salon tư vấn kỹ lưỡng trước khi làm.',
+    text: 'Tiệm làm tóc tóc ưng quá chừng 😘, uốn nhuộm 1 lần luôn mà vẫn còn mượt, dịch vụ tốt, nhiệt tình lắm nhee😍😍',
   },
   {
     name: 'Bùi Khánh Linh',
