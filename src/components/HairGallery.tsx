@@ -1,22 +1,37 @@
 import { useRef } from 'react';
 
 const GALLERY_IMAGES = [
-  'https://res.cloudinary.com/o5ikznlv/image/upload/f_auto,q_auto:eco,dpr_auto,c_fill,ar_3:4,w_400/v1786076585/1_1_yumkal.jpg',
-'https://res.cloudinary.com/o5ikznlv/image/upload/f_auto,q_auto:eco,dpr_auto,c_fill,ar_3:4,w_400/v1786017643/1_4_pc8okp.jpg',
-'https://res.cloudinary.com/o5ikznlv/image/upload/f_auto,q_auto:eco,dpr_auto,c_fill,ar_3:4,w_400/v1786017645/1_2_j8pfn8.jpg',
-'https://res.cloudinary.com/o5ikznlv/image/upload/f_auto,q_auto:eco,dpr_auto,c_fill,ar_3:4,w_400/v1786017645/1_3_zd0tau.jpg',
-'https://res.cloudinary.com/o5ikznlv/image/upload/f_auto,q_auto:eco,dpr_auto,c_fill,ar_3:4,w_400/v1786017645/1_7_utvsma.jpg',
-'https://res.cloudinary.com/o5ikznlv/image/upload/f_auto,q_auto:eco,dpr_auto,c_fill,ar_3:4,w_400/v1786017645/1_6_ybbgge.jpg',
-'https://res.cloudinary.com/o5ikznlv/image/upload/f_auto,q_auto:eco,dpr_auto,c_fill,ar_3:4,w_400/v1786017646/1_12_b70tlb.jpg',
-'https://res.cloudinary.com/o5ikznlv/image/upload/f_auto,q_auto:eco,dpr_auto,c_fill,ar_3:4,w_400/v1786017646/1_5_ivdfvn.jpg',
-'https://res.cloudinary.com/o5ikznlv/image/upload/f_auto,q_auto:eco,dpr_auto,c_fill,ar_3:4,w_400/v1786017647/1_8_atkiac.jpg',
-'https://res.cloudinary.com/o5ikznlv/image/upload/f_auto,q_auto:eco,dpr_auto,c_fill,ar_3:4,w_400/v1786017647/1_9_bz3euz.jpg',
-'https://res.cloudinary.com/o5ikznlv/image/upload/f_auto,q_auto:eco,dpr_auto,c_fill,ar_3:4,w_400/v1786017647/1_10_g8jaxe.jpg',
-'https://res.cloudinary.com/o5ikznlv/image/upload/f_auto,q_auto:eco,dpr_auto,c_fill,ar_3:4,w_400/v1786017647/1_11_mh8fos.jpg',
-'https://res.cloudinary.com/o5ikznlv/image/upload/f_auto,q_auto:eco,dpr_auto,c_fill,ar_3:4,w_400/v1786017910/1_15_c9vyqm.jpg',
-'https://res.cloudinary.com/o5ikznlv/image/upload/f_auto,q_auto:eco,dpr_auto,c_fill,ar_3:4,w_400/v1786017911/1_14_hsncvv.jpg',
-'https://res.cloudinary.com/o5ikznlv/image/upload/f_auto,q_auto:eco,dpr_auto,c_fill,ar_3:4,w_400/v1786017910/1_13_u1zqdz.jpg',
-'https://res.cloudinary.com/o5ikznlv/image/upload/f_auto,q_auto:eco,dpr_auto,c_fill,ar_3:4,w_400/v1786017912/1_16_wclep5.jpg',
+'https://res.cloudinary.com/ll6thxdy/image/upload/f_auto,q_auto:eco,dpr_auto,c_fill,ar_3:4,w_400/v1786151471/0805_2_nyepub.jpg',
+
+'https://res.cloudinary.com/ll6thxdy/image/upload/f_auto,q_auto:eco,dpr_auto,c_fill,ar_3:4,w_400/v1786151468/0805_10_dv55og.jpg',
+
+'https://res.cloudinary.com/ll6thxdy/image/upload/f_auto,q_auto:eco,dpr_auto,c_fill,ar_3:4,w_400/v1786151472/0805_4_ta4j30.jpg',
+
+'https://res.cloudinary.com/ll6thxdy/image/upload/f_auto,q_auto:eco,dpr_auto,c_fill,ar_3:4,w_400/v1786151472/0805_5_ypjs5y.jpg',
+
+'https://res.cloudinary.com/ll6thxdy/image/upload/f_auto,q_auto:eco,dpr_auto,c_fill,ar_3:4,w_400/v1786151473/484824980_1808479793269400_7038359465863223345_n_s3euvn.jpg',
+
+'https://res.cloudinary.com/ll6thxdy/image/upload/f_auto,q_auto:eco,dpr_auto,c_fill,ar_3:4,w_400/v1786151476/0805_3_ffmbxh.jpg',
+
+'https://res.cloudinary.com/ll6thxdy/image/upload/f_auto,q_auto:eco,dpr_auto,c_fill,ar_3:4,w_400/v1786151469/0805_9_wwjcj3.jpg',
+
+'https://res.cloudinary.com/ll6thxdy/image/upload/f_auto,q_auto:eco,dpr_auto,c_fill,ar_3:4,w_400/v1786151471/0805_1_jgro8k.jpg',
+
+'https://res.cloudinary.com/ll6thxdy/image/upload/f_auto,q_auto:eco,dpr_auto,c_fill,ar_3:4,w_400/v1786151471/94619370_242448817109689_6951844033924694016_n_t0fbnz.jpg',
+
+'https://res.cloudinary.com/ll6thxdy/image/upload/f_auto,q_auto:eco,dpr_auto,c_fill,ar_3:4,w_400/v1786151471/0805_ydc0j8.jpg',
+
+'https://res.cloudinary.com/ll6thxdy/image/upload/f_auto,q_auto:eco,dpr_auto,c_fill,ar_3:4,w_400/v1786151470/0805_12_aqhdc3.jpg',
+
+'https://res.cloudinary.com/ll6thxdy/image/upload/f_auto,q_auto:eco,dpr_auto,c_fill,ar_3:4,w_400/v1786151470/484978316_1808479776602735_1117950820531129718_n_1_mcrlev.jpg',
+
+'https://res.cloudinary.com/ll6thxdy/image/upload/f_auto,q_auto:eco,dpr_auto,c_fill,ar_3:4,w_400/v1786151469/0805_11_jmaunb.jpg',
+
+'https://res.cloudinary.com/ll6thxdy/image/upload/f_auto,q_auto:eco,dpr_auto,c_fill,ar_3:4,w_400/v1786151378/0805_8_tfyq3b.jpg',
+
+'https://res.cloudinary.com/ll6thxdy/image/upload/f_auto,q_auto:eco,dpr_auto,c_fill,ar_3:4,w_400/v1786151360/0805_7_hcftoe.jpg',
+
+'https://res.cloudinary.com/ll6thxdy/image/upload/f_auto,q_auto:eco,dpr_auto,c_fill,ar_3:4,w_400/v1786151355/0805_6_smoq0g.jpg',
 ];
 
 export default function HairGallery() {
