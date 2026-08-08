@@ -35,9 +35,9 @@ const REVIEWS = [
     text: 'Anh chủ salon rất tâm , tư vấn phù hợp với từng loại tóc cỉa mình , mấy bạn nhân viên đều rất thân thiện.',
   },
   {
-    name: 'Hoàng Thùy Trang',
+    name: 'Hải Yến',
     service: 'Nối Tóc',
-    text: 'Nối tóc tự nhiên, không thấy vết nối. Mình yên tâm giao tóc cho các nhà tạo mẫu ở đây.',
+    text: 'Trải nghiệm xứng đáng 5 sao. Không gian sang trọng, phong cách chuyên nghiệp.',
   },
 ];
 
