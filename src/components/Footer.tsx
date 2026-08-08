@@ -1,10 +1,4 @@
 export default function Footer() {
-  const socials = [
-    { name: 'Facebook', href: 'https://www.facebook.com/profile.php?id=100057353173781' },
-    { name: 'TikTok', href: 'https://www.tiktok.com/@salontrieutocdep' },
-    { name: 'Zalo', href: 'https://zalo.me/0942777009' },
-  ];
-
   return (
     <footer className="bg-[#2a221c] px-6 py-16 md:py-20">
       <div className="mx-auto max-w-[1200px]">
@@ -21,7 +15,7 @@ export default function Footer() {
               className="text-[13px] leading-[1.8] text-white/50"
               style={{ fontFamily: "'Inter', sans-serif" }}
             >
-              Salon tóc nữ Lái Thiêu, Thuận An. Nơi mỗi mái tóc là một tác phẩm nghệ thuật.
+              Salon tóc cao cấp Lái Thiêu. Nơi mỗi mái tóc là một tác phẩm nghệ thuật.
             </p>
           </div>
 
@@ -59,6 +53,7 @@ export default function Footer() {
             >
               08:00 – 20:00 (Thứ Hai – Thứ Bảy)<br />
               Chủ Nhật: Nghỉ
+              Chủ Nhật: Nghỉ
             </p>
           </div>
 
@@ -71,16 +66,14 @@ export default function Footer() {
               Mạng Xã Hội
             </span>
             <div className="flex flex-col gap-2">
-              {socials.map((s) => (
+              {['Instagram', 'TikTok', 'Facebook', 'YouTube'].map((s) => (
                 <a
-                  key={s.name}
-                  href={s.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  key={s}
+                  href="#"
                   className="text-[13px] text-white/60 transition-colors hover:text-white"
                   style={{ fontFamily: "'Inter', sans-serif" }}
                 >
-                  {s.name}
+                  {s}
                 </a>
               ))}
             </div>

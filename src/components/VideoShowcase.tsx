@@ -81,7 +81,7 @@ export default function VideoShowcase() {
               className="max-w-[480px] text-[14px] leading-[1.8] text-[#7a6b5d] md:text-[15px]"
               style={{ fontFamily: "'Inter', sans-serif" }}
             >
-              Câu chuyện của từng mái tóc — từ khoảnh khắc trước khi chạm tay nghệ nhân đến hình ảnh hoàn mỹ cuối cùng, với các bước cắt, uốn, nhuộm và tạo kiểu được thực hiện ngay tại salon.
+              Câu chuyện của từng mái tóc — từ khoảnh khắc trước khi chạm tay nghệ nhân đến hình ảnh hoàn mỹ cuối cùng.
             </p>
           </div>
 
