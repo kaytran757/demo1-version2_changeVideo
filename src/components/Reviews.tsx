@@ -30,9 +30,9 @@ const REVIEWS = [
     text: 'Tiệm làm tóc tóc ưng quá chừng 😘, uốn nhuộm 1 lần luôn mà vẫn còn mượt, dịch vụ tốt, nhiệt tình lắm nhee😍😍',
   },
   {
-    name: 'Bùi Khánh Linh',
+    name: 'Phố Ngô',
     service: 'Phục Hồi Tóc',
-    text: 'Tóc hư nặng sau nhiều lần tẩy, sau liệu trình phục hồi ở đây mà mềm mượt bất ngờ.',
+    text: 'Anh chủ salon rất tâm , tư vấn phù hợp với từng loại tóc cỉa mình , mấy bạn nhân viên đều rất thân thiện.',
   },
   {
     name: 'Hoàng Thùy Trang',
