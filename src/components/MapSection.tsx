@@ -208,7 +208,7 @@ export default function MapSection() {
               <img
                 ref={imgRef}
                 src={MAP_IMAGE}
-                alt="Map showing Triệu Tóc Đẹp salon location"
+                alt="Bản đồ vị trí salon tóc nữ Triệu Tóc Đẹp tại Lái Thiêu, Thuận An, Bình Dương"
                 loading="lazy"
                 decoding="async"
                 className="h-full w-full object-cover transition-transform duration-500 ease-out group-hover/map:scale-[1.03]"
