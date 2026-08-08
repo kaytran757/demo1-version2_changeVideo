@@ -12,12 +12,12 @@ const REVIEWS = [
   {
     name: 'Khang Nguyễn',
     service: 'Nhuộm tóc',
-    text: 'Đã làm tóc ở đây được 2 năm nhân viên rất hòa đồng nhiệt tình! Gotcha',
+    text: 'Đã làm tóc ở đây được 2 năm nhân viên rất hòa đồng nhiệt tình! Gotcha.',
   },
   {
-    name: 'Phạm Ngọc Diệp',
+    name: 'Nguyễn Hương',
     service: 'Uốn Hàn Quốc',
-    text: 'Tóc uốn xoăn tự nhiên, giữ nếp lâu mà không bị rít. Mọi người ở salon đều rất tâm huyết.',
+    text: 'Làm tóc ở tiệm cx cỡ 5 năm rồi , rất ưng ý. Uốn tóc và cắt tóc đều đúng với yêu cầu, thái độ nhiệt tình với khách hàng.',
   },
   {
     name: 'Võ Minh Khuê',
