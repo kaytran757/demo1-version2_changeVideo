@@ -20,9 +20,9 @@ const REVIEWS = [
     text: 'Làm tóc ở tiệm cx cỡ 5 năm rồi , rất ưng ý. Uốn tóc và cắt tóc đều đúng với yêu cầu, thái độ nhiệt tình với khách hàng.',
   },
   {
-    name: 'Võ Minh Khuê',
+    name: 'Het Cao Van',
     service: 'Cắt Layer & Style',
-    text: 'Layer cắt bay bổng mà vẫn gọn gàng, mình rất ưng. Sẽ giới thiệu bạn bè đến thử.',
+    text: '10đ a làm tóc hoà đồng thân thiện lắm luôn, giá tốt.',
   },
   {
     name: 'Đặng Thu Hà',
