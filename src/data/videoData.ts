@@ -28,7 +28,7 @@ export const videos: VideoItem[] = [
     id: 4,
     title: '',
     subtitle: '',
-    src: 'https://res.cloudinary.com/o5ikznlv/video/upload/v1786010696/8_olyi2h.mp4',
+    src: 'https://res.cloudinary.com/ll6thxdy/video/upload/v1786149755/1_12_ki6vht.mp4',
   },
   {
     id: 5,
