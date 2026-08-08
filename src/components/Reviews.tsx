@@ -5,14 +5,14 @@ const REVIEWS = [
     text: 'Uốn tóc từ trước tết tới giờ vẫn giữ nếp rất ok, thái độ phục vụ của tiệm cx rất tốt 👍',
   },
   {
-    name: 'Thảo Phương',
+    name: 'Trần Thanh Hằng',
     service: 'Cắt Tóc & Phục Hồi',
-    text: 'Quá trình làm tóc rất nhẹ nhàng, bạn thợ làm cực kỳ tỉ mỉ và chuyên nghiệp. Trong lúc làm còn nói chuyện vui vẻ nên mình cảm thấy rất thoải mái, không bị gò bó hay khó chịu gì cả.',
+    text: 'Kiểu tóc cắt tỉa rất tinh tế, đúng như mình mong muốn. Liệu trình phục hồi giúp tóc mềm mại trở lại.',
   },
   {
-    name: 'Lê Hoàng Yến',
-    service: 'Tẩy & Ombré',
-    text: 'Tẩy tóc an toàn, không bị khô xơ. Hiệu ứng ombré tự nhiên và rất hợp với nước da của mình.',
+    name: 'Khang Nguyễn',
+    service: 'Nhuộm tóc',
+    text: 'Đã làm tóc ở đây được 2 năm nhân viên rất hòa đồng nhiệt tình! Gotcha',
   },
   {
     name: 'Phạm Ngọc Diệp',
