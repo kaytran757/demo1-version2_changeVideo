@@ -103,7 +103,7 @@ const Hero = forwardRef<HTMLElement>((_props, ref) => {
               className="hero-content-item hero-description text-white/65"
               style={{ fontFamily: "'Inter', sans-serif" }}
             >
-              Tiêu chuẩn mới trong nghệ thuật tạo mẫu tóc. Cắt tỉa chính xác, màu tóc đa chiều, và các liệu trình chăm sóc được thiết kế riêng cho từng khách hàng — bởi những nhà tạo mẫu coi mỗi mái tóc như một tác phẩm.
+              Salon tóc nữ tại Lái Thiêu, Thuận An, chuyên cắt, uốn, nhuộm, duỗi và phục hồi tóc. Mỗi kiểu tóc được tư vấn dựa trên chất tóc, gương mặt và phong cách riêng để bạn có mái tóc đẹp, dễ chăm sóc và phù hợp với mình.
             </p>
 
             <div className="hero-content-item hero-cta-row pointer-events-auto mt-10 flex items-center gap-2 md:gap-4">

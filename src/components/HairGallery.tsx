@@ -63,7 +63,7 @@ export default function HairGallery() {
             className="max-w-[480px] text-[14px] leading-[1.8] text-[#7a6b5d] md:text-[15px]"
             style={{ fontFamily: "'Inter', sans-serif" }}
           >
-            Một tuyển tập những kiểu tóc được thực hiện tại salon — từ những đường cắt tỉa tinh tế đến những phối màu đa chiều, mỗi hình ảnh là một câu chuyện hoàn chỉnh.
+            Tuyển tập các kiểu tóc nữ được thực hiện tại salon ở Lái Thiêu — từ những đường cắt tỉa tinh tế, kiểu uốn tự nhiên đến những phối màu nhuộm đa chiều, mỗi hình ảnh là một phong cách hoàn chỉnh.
           </p>
         </div>
 
